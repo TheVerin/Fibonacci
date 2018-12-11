@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import FibResults
+from fibo_calc.models import FibResults
 
 
 def calculation(n: int):
@@ -13,5 +13,26 @@ def calculation(n: int):
             sl.append(sl[-1] + sl[-2])
         return sl[-1]
 
+def fib_nums(request):
+    num = 0
+    result = 0
 
+    if request.GET.get('number'):
+        number = request.GET.get
+        num = int(number)
+        result = calculation(num)
+
+
+        obj = FibResults.objects.create(
+            number=num, result=result)
+        obj.save()
+
+    return render(
+        request,
+        'index.html',
+        {
+            'number': num,
+            'result': result,
+        }
+    )
 

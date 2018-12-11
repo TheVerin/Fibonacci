@@ -8,5 +8,5 @@ class FibResults(models.Model):
     class Metaclass:
         db_table = 'fib_results'
 
-    def __unicode__(self):
+    def __int__(self):
         return self.number
