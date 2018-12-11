@@ -4,6 +4,6 @@ from . import views
 
 
 urlpatterns = [
-    path('', views.fib_nums(), name ='fib_nums'),
+    path('', views.fib_nums, name ='fib_nums'),
 
 ]

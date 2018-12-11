@@ -18,14 +18,11 @@ def fib_nums(request):
     result = 0
 
     if request.GET.get('number'):
-        number = request.GET.get
+        number = request.GET.get('number')
         num = int(number)
         result = calculation(num)
 
 
-        obj = FibResults.objects.create(
-            number=num, result=result)
-        obj.save()
 
     return render(
         request,
