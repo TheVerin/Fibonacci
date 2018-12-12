@@ -30,7 +30,9 @@ def fib_nums(request):
                 second_num = int(second_number)
                 result = calculation(num, first_num, second_num)
 
-
+    obj = FibResults.objects.create(number = num, first_number = first_num,
+                                    second_number = second_num, result = result)
+    obj.save()
 
 
     return render(
