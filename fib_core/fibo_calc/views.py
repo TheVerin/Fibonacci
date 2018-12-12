@@ -38,8 +38,8 @@ def fib_nums(request):
         'index.html',
         {
             'number': num,
-            #'first_number': first_num,
-            #'second_number': second_num,
+            'first_number': first_num,
+            'second_number': second_num,
             'result': result,
         }
     )
