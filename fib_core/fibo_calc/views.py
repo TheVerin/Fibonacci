@@ -24,6 +24,7 @@ def fib_nums(request):
 
 
 
+
     return render(
         request,
         'index.html',

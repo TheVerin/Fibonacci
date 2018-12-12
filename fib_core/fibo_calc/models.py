@@ -6,7 +6,7 @@ class FibResults(models.Model):
     result = models.IntegerField()
 
     class Metaclass:
-        db_table = 'fib_results'
+        db_table = 'fibo_calc'
 
     def __int__(self):
         return self.number
