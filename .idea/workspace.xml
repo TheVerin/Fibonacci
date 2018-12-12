@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7da3a52e-9050-4074-89a2-d77304efa95d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fib_core/fibo_calc/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/fib_core/fibo_calc/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fib_core/fibo_calc/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fib_core/fibo_calc/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fib_core/fibo_calc/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/fib_core/fibo_calc/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fib_core/fibo_calc/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="360">
+              <caret line="24" column="54" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="54" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -68,11 +67,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fib_core/fibo_calc/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fib_core/fibo_calc/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="94" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -94,11 +102,11 @@
       <list>
         <option value="$PROJECT_DIR$/fib_core/fib_core/settings.py" />
         <option value="$PROJECT_DIR$/fib_core/fibo_calc/apps.py" />
-        <option value="$PROJECT_DIR$/fib_core/fibo_calc/templates/index.html" />
         <option value="$PROJECT_DIR$/fib_core/fib_core/urls.py" />
         <option value="$PROJECT_DIR$/fib_core/fibo_calc/urls.py" />
-        <option value="$PROJECT_DIR$/fib_core/fibo_calc/views.py" />
         <option value="$PROJECT_DIR$/fib_core/fibo_calc/models.py" />
+        <option value="$PROJECT_DIR$/fib_core/fibo_calc/views.py" />
+        <option value="$PROJECT_DIR$/fib_core/fibo_calc/templates/index.html" />
       </list>
     </option>
   </component>
@@ -310,13 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fib_core/fibo_calc/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../django-fibonacci-master/fibonacci/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -381,20 +382,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fib_core/fibo_calc/views.py">
+    <entry file="file://$PROJECT_DIR$/fib_core/fibo_calc/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fib_core/fibo_calc/models.py">
+    <entry file="file://$PROJECT_DIR$/fib_core/fibo_calc/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="225">
+          <caret line="15" column="94" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fib_core/fibo_calc/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

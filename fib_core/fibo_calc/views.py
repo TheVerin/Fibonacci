@@ -2,8 +2,8 @@ from django.shortcuts import render
 from fibo_calc.models import FibResults
 
 
-def calculation(n: int):
-    sl = [0,1]
+def calculation(n: int, n0: int, n1: int):
+    sl = [n0, n1]
     if n == 0:
         return 0
     elif n == 1:
@@ -20,7 +20,11 @@ def fib_nums(request):
     if request.GET.get('number'):
         number = request.GET.get('number')
         num = int(number)
-        result = calculation(num)
+        first_number = request.GET.get('first_number')
+        first_num = int(first_number)
+        second_number = request.GET.get('second_number')
+        second_num = int(second_number)
+        result = calculation(num, first_num, second_num)
 
 
 
